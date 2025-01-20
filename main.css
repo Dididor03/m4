@@ -1,0 +1,228 @@
+/* GENERAL */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.bod {
+    background-color: rgb(218, 218, 218);
+    font-family: "Georgia"
+}
+
+
+/* ENCABEZADO */
+.imagen_logo {
+    display: flex;
+    width: 30%;
+    padding-right: 120px;
+}
+
+
+.encabezado {
+    display: flex;
+}
+
+.titulo {
+    display: flex;
+    width: 70%;
+    align-items: center;
+
+
+}
+
+.titulo_texto {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+}
+
+
+.banner_ciutat {
+
+
+    display: flex;
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+
+
+
+
+.img_logo {
+    display: flex;
+    width: 40%;
+    height: 100%;
+}
+
+.img_logo:hover {
+    transform: scale(1.1);
+}
+
+
+
+.fot {
+    display: flex;
+    background-color: rgb(137, 155, 153);
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.img_final {
+    width: 30%;
+    height: 80%;
+}
+
+.naveg {
+    background-color: rgb(10, 127, 14);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    text-align: left;
+    border-bottom: 12x;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.obj_naveg {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s;
+}
+
+.obj_naveg:hover {
+    background-color: rgb(3, 114, 6);
+    color: black;
+    border-radius: 12px;
+}
+
+
+
+
+.obj_fot {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content {
+    background-color: rgb(209, 212, 208);
+    padding: 30px;
+}
+
+/* index.html */
+
+.Titol_index {
+    
+    text-align: center;
+}
+.texto_Principal {
+
+text-align: justify;
+
+}
+
+.Contenido {
+display: flex;
+padding: 5px;
+}
+
+.img_asg{
+    width: 520px;
+    height: 400px;
+} 
+
+
+.content_index {
+    display: flex;
+}
+
+.sidebar_index {
+    display: flex;
+    background-color: rgb(12, 106, 20);
+    padding: 10%;
+
+}
+
+hr {
+    height: 3px;
+}
+
+/* CONTACTO */
+
+.img_contacto {
+    width: 80%;
+    height: 80%;
+}
+
+.img_contacto2 {
+    width: 60%;
+    height: 20%;
+}
+
+.tit_contacto {
+    font-size: 150%;
+    text-align: center;
+}
+
+.img_iconos {
+    width: 70%;
+    height: 700%;
+}
+
+
+.contacto_part1 {
+    flex: 1;
+    padding: 50px;
+}
+
+.contacto_part2 {
+    flex: 3;
+    padding: 20px;
+    text-align: center;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 75%;
+    padding: 0% auto;
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: center;
+}
+
+p.texto_contacto {
+    text-align: center;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    margin: auto;
+}
+
+iframe {
+    border-radius: auto;
+    width: 100%;
+    height: 400px;
+}
