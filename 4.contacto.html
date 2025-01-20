@@ -1,10 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3c.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
-    
+
     <head>
         <!--  -->
-        <meta http-equiv="Content-Type"content="text/html; charset=utf-8" />
-        <link rel="stylesheet" href="main.css" type="text/css"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css" type="text/css" />
         <link rel="shortcut icon" href="media/favicon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,25 +16,24 @@
     <body class="bod">
 
         <header>
-<!-- Cabezal -->
-        <div class="encabezado">
-            <div class="imagen_logo">
-                <img class="img_logo" src="media/emblema_ayuntamiento.png" alt="Logo Ayuntamiento Cerdanyola del Vallès"/>
-            </div>
+            <!-- Cabezal -->
+            <div class="encabezado">
+                <div class="imagen_logo">
+                    <img class="img_logo" src="media/emblema_ayuntamiento.png" alt="Logo Ayuntamiento Cerdanyola del Vallès" />
+                </div>
 
-            <div class="titulo">
-                <h1 class="titulo_texto"> CONSELLERIA DE MEDI AMBIENT </h1>
+                <div class="titulo">
+                    <h1 id="inicio" class="titulo_texto"> CONSELLERIA DE MEDI AMBIENT </h1>
+                </div>
             </div>
-        </div>
-        <img class="banner_ciutat" src="media/banner-ciutat.jpg";
-<!-- Nevegador -->
+            <img class="banner_ciutat" src="media/banner-ciutat.jpg"/>
+            <!-- Nevegador -->
             <nav class="naveg">
                 <div><a class="obj_naveg" href="index.html">Inicio</a></div>
                 <div><a class="obj_naveg" href="2.medidas.html">Mesures Mediambientals</a></div>
                 <div><a class="obj_naveg" href="3.imagenes.html">Galeria d'imatges</a></div>
                 <div><a class="obj_naveg" href="4.contacto.html">Contacte</a></div>
             </nav>
-
         </header>
 
         <main class="main">
@@ -140,7 +140,71 @@
 
                 <div class="mapa">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.59564817475!2d2.138209275539504!3d41.49136518954003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4961cb2f17fc1%3A0x7b26fa9bcb77df9!2sPla%C3%A7a%20Francesc%20Layret%2C%2008290%20Cerdanyola%20del%20Vall%C3%A8s%2C%20Barcelona!5e0!3m2!1sca!2ses!4v1737136384164!5m2!1sca!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" alt="Mapa Ajuntament Cerdanyola"></iframe>
-                </div>
+                </div>
+      
+                <hr>
+
+                <div class="formulario">
+                    <h3>Contacta amb nosaltres</h3>
+                    <form class="flex">
+                        <section class="col-7" id="margin">
+                            <div class="mb-5">
+                                <label class="form-label">Direcció de correu electrònic</label>
+                                <input type="email" class="form-control" placeholder="Example: diquese03@gmail.com">
+                                <div class="form-text">Mai compartirem el teu correu electrònic amb ningú més.</div>
+                            </div>
+                            <div class="mb-5">
+                                <label class="form-label">Password</label>
+                                <input type="password" class="form-control" id="inputPassword">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Recorda'm</label>
+                            </div>
+                        </section>
+                        <section class="col-4" id="margin">
+                            <h5>Ets resident de Cerdanyola del Vallès?</h5>
+
+                            <div id="formulario">
+                                
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault">
+                                    <label class="form-check-label" for="flexRadioDefault1">Si</label>
+                                </div>
+                                
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault">
+                                    <label class="form-check-label" for="flexRadioDefault2">No</label>
+                                </div>
+                            </div>  
+                                
+                            <br>
+                              
+                            <select class="form-select" aria-label="Disabled select example" >
+                                <label class="form-label">Resideixes en Cerdanyola del Vallès?</label>
+                                <option selected>Barri de residència: </option>
+                                <option value="1">Fontetes</option>
+                                <option value="2">Bellaterra</option>
+                                <option value="3">Centre-Cordelles</option>
+                                <option value="4">Sant Ramón</option>
+                                <option value="5">Serraparera</option>
+                                <option value="6">Montflorit-Plana del Castell</option>
+                                <option value="7">Martinica-Ateneu</option>
+                                <option value="8">Caneletes-Turonet</option>
+                                <option value="9">~No resident~</option>
+                            </select>
+                            
+                            <br>
+
+                            <div class="mb-3">
+                                <labelclass="form-label">Missatge: </label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                        </section>
+
+                    </form>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
                 
             </section>
 
@@ -164,7 +228,7 @@
                 </div>
 
                 <div class="obj_fot">
-<!-- cuadricula -->
+
                     <h5>Creadores: <br><br>
                         Mario Ruiz<br><br>
                         Santiago Urdaneta<br><br>
@@ -177,7 +241,6 @@
 
         </footer>
 
+    </body>
 
-    </body> 
-    
 </html>

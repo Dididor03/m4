@@ -17,21 +17,14 @@
     padding-right: 120px;
 }
 
-
 .encabezado {
     display: flex;
 }
-
-
-
-
 
 .titulo {
     display: flex;
     width: 70%;
     align-items: center;
-
-
 }
 
 .titulo_texto {
@@ -40,19 +33,12 @@
     font-weight: weight;
 }
 
-
 .banner_ciutat {
-
-
     display: flex;
     width: 100%;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
-
-
-
-
 
 .img_logo {
     display: flex;
@@ -64,15 +50,12 @@
     transform: scale(1.1);
 }
 
-
-
 .fot {
     display: flex;
     background-color: rgb(137, 155, 153);
     align-items: center;
     justify-content: space-around;
 }
-
 
 .img_final {
     width: 30%;
@@ -105,9 +88,6 @@
     border-radius: 12px;
 }
 
-
-
-
 .obj_fot {
     padding: 10px 20px;
     font-size: 20px;
@@ -125,31 +105,23 @@
     padding: 30px;
 }
 
+
 /* index.html */
-
 .Titol_index {
-
     text-align: center;
     padding-top: 50px;
 }
 
 .texto_Principal {
-
     text-align: justify;
-
 }
 
 .Contenido {
-
     display: flex;
     padding-bottom: 10px;
-
-
 }
 
-
 .Texto_Imagen_Principal {
-
     padding-left: 2%;
     padding-right: 2%;
     text-align: center;
@@ -161,10 +133,8 @@
 }
 
 .img_index_1 {
-
     width: 80%;
 }
-
 
 .sidebar_index {
     background-color: rgb(12, 106, 20);
@@ -180,13 +150,10 @@ hr {
     height: 3px;
 }
 
-
-
 li {
     align-items: center;
     margin-bottom: 10px;
 }
-
 
 .a_noticias {
     color: white;
@@ -196,23 +163,18 @@ li {
 }
 
 .a_index_inicio {
-
     color: black;
     text-decoration: none;
 }
 
-
 .img_noticias {
-
     width: 200px;
     height: 120px;
     padding: 1%;
-
 }
 
 
 /* CONTACTO */
-
 .img_contacto {
     width: 80%;
     height: 80%;
@@ -233,7 +195,6 @@ li {
     height: 700%;
 }
 
-
 .contacto_part1 {
     flex: 1;
     padding: 50px;
@@ -244,7 +205,6 @@ li {
     padding: 20px;
     text-align: center;
 }
-
 
 table {
     border-collapse: collapse;
@@ -277,4 +237,19 @@ iframe {
     border-radius: 12px;
     width: 100%;
     height: 400px;
+}
+
+#margin {
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.formulario {
+    text-align: left;
+}
+
+.flex {
+    display: flex;
 }
